@@ -4,9 +4,9 @@
 
 You need to create symlinks pointing from your dota mods folders to the repo:
 
-`Content: mklink "PATH\TO\STEAM\LIBRARY\SteamLibrary\steamapps\common\dota 2 beta\content\dota_addons\BattleStratego" "PATH\TO\GIT\REPO\BattleStratego\content\dota_addons\BattleStratego"`
+Content: `mklink "PATH\TO\STEAM\LIBRARY\SteamLibrary\steamapps\common\dota 2 beta\content\dota_addons\Battle Stratego" "PATH\TO\GIT\REPO\BattleStratego\content\dota_addons\Battle Stratego"`
 
-`Game: mklink "PATH\TO\STEAM\LIBRARY\SteamLibrary\steamapps\common\dota 2 beta\game\dota_addons\BattleStratego" "PATH\TO\GIT\REPO\BattleStratego\game\dota_addons\BattleStratego"`
+Game: `mklink /j "PATH\TO\STEAM\LIBRARY\SteamLibrary\steamapps\common\dota 2 beta\game\dota_addons\Battle Stratego" "PATH\TO\GIT\REPO\BattleStratego\game\dota_addons\Battle Stratego"`
 
 
 # Barebones Starter Mod Kit
